@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea Station</title>
+
+    <!-- linking css file  -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- linking font awesome  -->
+    <!-- <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.css"> -->
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&family=Grand+Hotel&display=swap"
+        rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/6b28ea6e3f.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <!-- 
+    =========================
+    Navbar section
+    =========================
+    -->
+
+    <!-- menu button  -->
+    <span class="nav-btn" id="nav-btn">
+        <i class="fas fa-bars"></i>
+    </span>
+
+    <nav class="navbar" id="navbar">
+        <span class="nav-close" id="nav-close">
+            <i class="fas fa-times"></i>
+        </span>
+
+        <ul class="nav-items">
+            <li><a class="nav-link" href="#home">home</a></li>
+            <li><a class="nav-link" href="#skills">skills</a></li>
+            <li><a class="nav-link" href="#about">about us</a></li>
+            <li><a class="nav-link" href="#products">products</a></li>
+            <li><a class="nav-link" href="#services">services</a></li>
+            <li><a class="nav-link" href="#contact">contact us</a></li>
+        </ul>
+
+    </nav>
+
+
+    <!-- 
+    =========================
+    Header section
+    =========================
+    -->
+
+    <header id="home" class="header">
+        <div class="banner">
+            <h2>over one hundred varieties of</h2>
+            <h1>
+                finger
+                <br>
+                licking burgers
+            </h1>
+
+            <a class="btn banner-btn" href="#">explore</a>
+
+            <!-- btn will be the common class for all the buttons because all the buttons share some common design properties -->
+        </div>
+    </header>
+
+    <!-- 
+    =========================
+    Content Divider
+    =========================
+    -->
+    <div class="content-divider"></div>
+
+    <!-- 
+    =========================
+    Skills Section
+    =========================
+    -->
+
+    <section class="skill-section clearfix" id="skills">
+
+        <!-- skill # 1  -->
+        <article class="skill-unit">
+
+            <span class="skill-icon">
+                <i class="fa-solid fa-burger"></i>
+            </span>
+
+            <h4 class="skill-title">bigger patty</h4>
+
+            <p class="skill-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, iste.
+            </p>
+
+        </article>
+
+        <!-- skill # 2  -->
+        <article class="skill-unit">
+
+            <span class="skill-icon">
+                <i class="fa-solid fa-cheese"></i>
+            </span>
+
+            <h4 class="skill-title">juicy</h4>
+
+            <p class="skill-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, iste.
+            </p>
+
+        </article>
+
+        <!-- skill # 3  -->
+        <article class="skill-unit">
+
+            <span class="skill-icon">
+                <i class="fa-solid fa-fire"></i>
+            </span>
+
+            <h4 class="skill-title">soft & fresh</h4>
+
+            <p class="skill-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, iste.
+            </p>
+
+        </article>
+
+        <!-- skill # 4  -->
+        <article class="skill-unit">
+
+            <span class="skill-icon">
+                <i class="fas fa-mortar-pestle"></i>
+            </span>
+
+            <h4 class="skill-title">spicy</h4>
+
+            <p class="skill-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, iste.
+            </p>
+
+        </article>
+    </section>
+
+    <!-- 
+    =========================
+    About Section
+    =========================
+    -->
+
+    <section class="section-center clearfix" id="about">
+
+        <!-- about image  -->
+        <article class="about-img">
+            <div class="about-picture-container">
+                <img class="about-picture" src="about-bcg.jpeg" alt="">
+            </div>
+        </article>
+
+        <!-- about info  -->
+        <article class="about-info">
+            <div class="section-title">
+                <h3>about our</h3>
+                <h2>big burgers</h2>
+            </div>
+
+            <p class="about-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates reiciendis ipsam.
+            </p>
+            <p class="about-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates reiciendis ipsam.
+            </p>
+
+            <a class="btn" href="#">learn more</a>
+        </article>
+    </section>
+
+
+    <!-- 
+    =========================
+    Products Section
+    =========================
+    -->
+
+    <section class="products" id="products">
+
+        <div class="section-center clearfix">
+
+            <!-- products info  -->
+            <article class="products-info">
+
+                <div class="section-title">
+                    <h3>check out</h3>
+                    <h2>our products</h2>
+                </div>
+
+                <p class="products-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam excepturi expedita, quisquam labore
+                    ad neque cum earum eligendi nesciunt consequuntur quia minima! Corporis, hic quibusdam!
+                </p>
+
+                <a class="btn" href="#">inventory</a>
+
+            </article>
+
+            <!-- products inventory  -->
+            <article class="products-inventory clearfix">
+
+                <!-- product # 1  -->
+                <div class="product-unit">
+                    <img class="product-img" src="product-1.jpeg" alt="">
+                    <h4 class="product-title">Chicken Cheese Burger</h4>
+                    <h4 class="product-price">Rs.200</h4>
+                </div>
+
+                <!-- product # 2  -->
+                <div class="product-unit">
+                    <img class="product-img" src="product-2.jpeg" alt="">
+                    <h4 class="product-title">Crispy Chicken Burger</h4>
+                    <h4 class="product-price">Rs.250</h4>
+                </div>
+
+                <!-- product # 3  -->
+                <div class="product-unit">
+                    <img class="product-img" src="product-3.jpeg" alt="">
+                    <h4 class="product-title">Jaw Breaker Burger</h4>
+                    <h4 class="product-price">Rs.400</h4>
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+    <!-- 
+    =========================
+    Services Section
+    =========================
+    -->
+
+    <section class="services" id="services">
+
+        <!-- section title  -->
+        <div class="section-title services-title">
+            <h3>explore</h3>
+            <h2>our services</h2>
+        </div>
+
+        <!-- cards -->
+        <div class="section-center clearfix">
+
+            <!-- card # 1  -->
+            <article class="service-card">
+
+                <!-- image container  -->
+                <div class="service-img-container">
+
+                    <!-- image  -->
+                    <img class="service-img" src="product-1.jpeg" alt="">
+
+                    <!-- icon  -->
+                    <span class="service-icon">
+                        <i class="fas fa-mortar-pestle"></i>
+                    </span>
+
+                </div>
+
+                <!-- service info  -->
+                <div class="service-info">
+
+                    <h4>custom recipes</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore voluptates blanditiis corrupti
+
+                    </p>
+                    <a class="btn service-btn" href="#">learn more</a>
+
+                </div>
+
+            </article>
+
+            <!-- card # 2  -->
+            <article class="service-card">
+
+                <!-- image container  -->
+                <div class="service-img-container">
+
+                    <!-- image  -->
+                    <img class="service-img" src="product-2.jpeg" alt="">
+
+                    <!-- icon  -->
+                    <span class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </span>
+
+                </div>
+
+                <!-- service info  -->
+                <div class="service-info">
+
+                    <h4>home delivery</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore voluptates blanditiis corrupti
+
+                    </p>
+                    <a class="btn service-btn" href="#">learn more</a>
+
+                </div>
+
+            </article>
+
+            <!-- card # 3  -->
+            <article class="service-card">
+
+                <!-- image container  -->
+                <div class="service-img-container">
+
+                    <!-- image  -->
+                    <img class="service-img" src="product-3.jpeg" alt="">
+
+                    <!-- icon  -->
+                    <span class="service-icon">
+                        <i class="fa-solid fa-fire"></i>
+                    </span>
+
+                </div>
+
+                <!-- service info  -->
+                <div class="service-info">
+
+                    <h4>Hot & Spicy</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore voluptates blanditiis corrupti
+
+                    </p>
+                    <a class="btn service-btn" href="#">learn more</a>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+    <!-- 
+    =========================
+    Contact Section
+    =========================
+    -->
+
+    <section class="contact" id="contact">
+
+        <div class="section-center clearfix">
+
+            <!-- contact info  -->
+            <article class="contact-info">
+
+                <!-- contact item - address  -->
+                <div class="contact-item">
+                    <h4 class="contact-title">
+                        <span class="contact-icon">
+                            <i class="fas fa-location-arrow"></i>
+                        </span>
+                        Address
+                    </h4>
+
+                    <h4 class="contact-text">
+                        City Center Shopping Mall
+                        <br>
+                        Mumbai 400004
+                    </h4>
+                </div>
+
+                <!-- contact item - email  -->
+                <div class="contact-item">
+                    <h4 class="contact-title">
+                        <span class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </span>
+                        Email
+                    </h4>
+
+                    <h4 class="contact-text">
+                        email@gmail.com
+                    </h4>
+                </div>
+
+                <!-- contact item - phone  -->
+                <div class="contact-item">
+                    <h4 class="contact-title">
+                        <span class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </span>
+                        Phone
+                    </h4>
+
+                    <h4 class="contact-text">
+                        +91 700001 0404
+                    </h4>
+                </div>
+            </article>
+
+            <!-- contact form  -->
+            <article class="contact-form">
+                <h3>Contact us</h3>
+
+                <form action="form-spree" method="POST">
+
+                    <div class="form-group">
+                        <input type="text" name="name" class="form-unit" placeholder="name">
+
+                        <input type="email" name="email" class="form-unit" placeholder="email">
+
+                        <textarea name="message" class="form-unit" cols="30" rows="5" placeholder="message"></textarea>
+
+                    </div>
+
+                    <button class="btn submit-btn">submit here</button>
+
+                </form>
+            </article>
+        </div>
+    </section>
+
+
+    <!-- 
+    =========================
+    Footer Section
+    =========================
+    -->
+
+    <footer class="footer">
+
+        <div class="section-center">
+            <div class="social-icons">
+
+                <!-- facebook icon  -->
+                <a href="#" class="social-icon">
+                    <i class="fab fa-facebook"></i>
+                </a>
+
+                <!-- twitter icon  -->
+                <a href="#" class="social-icon">
+                    <i class="fab fa-twitter"></i>
+                </a>
+
+                <!-- instagram icon  -->
+                <a href="#" class="social-icon">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+            </div>
+
+            <h4 class="footer-text">
+                &copy; 2021
+                <span>
+                    big burgers
+                </span>
+                all rights reserved
+
+            </h4>
+
+        </div>
+
+    </footer>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
